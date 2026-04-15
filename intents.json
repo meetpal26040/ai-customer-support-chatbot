@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": ["Hello! How can I assist you today?"]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["Where is my order?", "Track my order", "Order status"],
+      "responses": ["You can track your order using your order ID."]
+    },
+    {
+      "tag": "refund",
+      "patterns": ["I want a refund", "Return my product"],
+      "responses": ["Refunds are processed within 5-7 business days."]
+    },
+    {
+      "tag": "payment",
+      "patterns": ["Payment failed", "Payment options"],
+      "responses": ["We accept UPI, credit card, and net banking."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you"],
+      "responses": ["Goodbye! Have a great day."]
+    }
+  ]
+}
